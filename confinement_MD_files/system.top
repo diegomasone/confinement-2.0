@@ -1,0 +1,14 @@
+#include "toppar/martini_v3.0.0.itp"
+#include "toppar/martini_v3.0.0_ions_v1.itp"
+#include "toppar/martini_v3.0.0_solvents_v1.itp"
+#include "toppar/martini_v3.0_phosphoinositides_v1.0.itp"
+#include "toppar/martini_v3.0.0_phospholipids_v1_POSRE_DOPC_DTPC_DNPC.itp"
+
+[ system ]
+BUMPy system
+
+[ molecules ]
+DOPC	1001
+DTPC	1001
+DNPC	1001
+W           413825
